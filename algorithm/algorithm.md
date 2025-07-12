@@ -217,3 +217,58 @@ int main() {
     return 0;
 }
 ```
+
+## 練習問題
+
+```{exercise}
+:label: maximum-value
+
+3つの整数を入力として受け取り、その中で最大の値を出力するアルゴリズムを擬似コードで表現しなさい。
+```
+
+````{solution} maximum-value
+:label: maximum-value-solution
+
+```{prf:algorithm} 最大値の計算
+:label: maximum-value-algorithm
+**Input**: $\texttt{x_1}$, $\texttt{x_2}$, $\texttt{x_3}$   
+**Output**: $\texttt{x_{\max}}$
+
+1. $\texttt{x_{\max}} \gets \texttt{x_1}$
+2. **if** $\texttt{x_2} > \texttt{x_{\max}}$ **then**
+   1. $\texttt{x_{\max}} \gets \texttt{x_2}$
+3. **if** $\texttt{x_3} > \texttt{x_{\max}}$ **then**
+   1. $\texttt{x_{\max}} \gets \texttt{x_3}$
+```
+
+```{code} python
+:label: maximum-value-python
+:caption: Finding maximum value in Python
+
+def find_maximum(x1, x2, x3):
+    x_max = x1
+    if x2 > x_max:
+        x_max = x2
+    if x3 > x_max:
+        x_max = x3
+    return x_max
+```
+
+```{code} c
+:label: maximum-value-c
+:caption: Finding maximum value in C
+#include <stdio.h>
+int find_maximum(int x1, int x2, int x3) {
+    int x_max = x1;
+    if (x2 > x_max) {
+        x_max = x2;
+    }
+    if (x3 > x_max) {
+        x_max = x3;
+    }
+    return x_max;
+}
+```
+````
+
+
