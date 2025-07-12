@@ -223,24 +223,14 @@ int main() {
 ```{exercise}
 :label: maximum-value
 
-3つの整数を入力として受け取り、その中で最大の値を出力するアルゴリズムを擬似コードで表現しなさい。
+3つの整数を入力として受け取り、その中で最大の値を出力するアルゴリズムを擬似コードで表現し、任意のプログラミング言語で実装しなさい。
 ```
 
 ````{solution} maximum-value
 :label: maximum-value-solution
 :class: dropdown
 
-```{prf:algorithm} 最大値の計算
-:label: maximum-value-algorithm
-**Input**: $\texttt{x_1}$, $\texttt{x_2}$, $\texttt{x_3}$   
-**Output**: $\texttt{x_{\max}}$
-
-1. $\texttt{x_{\max}} \gets \texttt{x_1}$
-2. **if** $\texttt{x_2} > \texttt{x_{\max}}$ **then**
-   1. $\texttt{x_{\max}} \gets \texttt{x_2}$
-3. **if** $\texttt{x_3} > \texttt{x_{\max}}$ **then**
-   1. $\texttt{x_{\max}} \gets \texttt{x_3}$
-```
+擬似コードの解答例は省略。
 
 ```{code} python
 :label: maximum-value-python
