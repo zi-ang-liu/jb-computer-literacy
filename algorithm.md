@@ -9,7 +9,6 @@ Today, computer science has established itself as the science of algorithms.
 :::{important} Objective 
 - アルゴリズムの概念を理解する。
 - 代入、選択構造、反復構造を理解し、擬似コードで表現できる。
-- 簡単な問題に対して、アルゴリズムを設計し、擬似コードで表現できる。
 :::
 
 ## アルゴリズムとは
@@ -116,7 +115,9 @@ int main() {
    1. activity
 ```
 
-擬似コードでは、字下げを用いて、`if`文の制御範囲を示す。
+読みやすくするために、擬似コードでは、字下げを用いて制御範囲を示す。Pythonでは、字下げが構文の一部であるため、特に重要である。
+
+`condition`は条件式で、結果は`True`または`False`である。条件が`True`の場合、`then`以下の処理が実行され、`False`の場合は`else`以下の処理が実行される。
 
 例えば、成績を判定するアルゴリズムは以下のように表現できる。
 
@@ -164,3 +165,55 @@ int main() {
 
 ### 反復構造
 
+反復構造（repetition structure）は、特定の条件が満たされるまで同じ処理を繰り返すための構造である。擬似コードでは、以下のように表現される。
+
+```{prf:algorithm} repetition structure
+:label: repetition-structure
+1. **while** condition **do**
+   1. activity
+```
+
+例えば、1からnまでの整数の合計、$\sum_{i=1}^{n} i$を計算するアルゴリズムは以下のように表現できる。
+
+```{prf:algorithm} 合計計算
+:label: sum-calculation
+**Input**: $\texttt{n}$   
+**Output**: $\texttt{sum}$
+
+1. $\texttt{sum} \gets 0$
+2. $\texttt{i} \gets 1$
+3. **while** $\texttt{i} \leq \texttt{n}$ **do**
+   1. $\texttt{sum} \gets \texttt{sum} + \texttt{i}$
+   2. $\texttt{i} \gets \texttt{i} + 1$
+```
+
+以下は、PythonとC言語での実装例である。
+
+```{code} python
+:label: sum-python
+:caption: Calculating sum in Python
+n = 10
+sum = 0
+i = 1
+while i <= n:
+    sum += i
+    i += 1
+print(sum)
+```
+
+```{code} c
+:label: sum-c
+:caption: Calculating sum in C
+#include <stdio.h>
+int main() {
+    int n = 10;
+    int sum = 0;
+    int i = 1;
+    while (i <= n) {
+        sum += i;
+        i++;
+    }
+    printf("%d\n", sum);
+    return 0;
+}
+```
