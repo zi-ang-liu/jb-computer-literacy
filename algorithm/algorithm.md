@@ -228,6 +228,7 @@ int main() {
 
 ````{solution} maximum-value
 :label: maximum-value-solution
+:class: dropdown
 
 ```{prf:algorithm} 最大値の計算
 :label: maximum-value-algorithm
@@ -244,7 +245,6 @@ int main() {
 ```{code} python
 :label: maximum-value-python
 :caption: Finding maximum value in Python
-
 def find_maximum(x1, x2, x3):
     x_max = x1
     if x2 > x_max:
