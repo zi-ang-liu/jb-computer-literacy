@@ -27,10 +27,19 @@
 3. 計画を実行する
 4. 結果を検証する
 
+この問題解決のプロセスをプログラムに適用すると、次のようになる。
+
+1. 問題を理解する
+2. アルゴリズムを発見する
+3. アルゴリズムをプログラムとして実装する
+4. プログラムを実行し、
+
 ## ヒューリスティック
 
 | ヒューリスティック       | 説明                                                                        |
 | ------------------------ | --------------------------------------------------------------------------- |
 | 類推（Analogy）          | Can you find a problem analogous to your problem and solve that?            |
 | 一般化（Generalization） | Can you find a problem more general than your problem?                      |
+| 特殊化（Specialization） | Can you find a problem more specialized?                                    |
 | 帰納（Induction）        | Can you solve your problem by deriving a generalization from some examples? |
+|                          |
