@@ -48,7 +48,7 @@ project:
         - file: algorithm/sorting.md
     
     - url: 'https://colab.research.google.com'
-      title: Google Colab
+      title: Google Colab 🧑‍💻
 
 site:
   template: book-theme
