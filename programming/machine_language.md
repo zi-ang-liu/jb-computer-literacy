@@ -57,14 +57,14 @@ Pep/9の命令セットには40種類の命令がある。
 
 命令は、**命令部**（Instruction Specifier）と**オペランド部**（Operand Specifier）の2つの部分で構成される。命令部は、命令の種類を示す8ビットのビットパターンである。オペランド部は、命令が操作するデータのアドレスや値を示す16ビットのビットパターンである。そのため、Pep/9の命令は、合計24ビット（3バイト）で表現される。
 
-```{figure} image/program-pep9_ins.drawio.svg
+:::{figure} image/program-instruction.drawio.svg
 :label: pep9_instruction_format
 :alt: Pep/9 Instruction Format
 :width: 500px
 :align: center
 
 Pep/9の命令
-```
+:::
 
 また、命令部だけで構成される命令もある。これらの命令は、オペランド部を持たないため、8ビットで表現される。
 
@@ -91,8 +91,11 @@ Pep/9の命令
 
 `1100 raaa`は、メモリからワードをレジスタにロードする命令である。ここで、`1100`はオペコードで、`r`はレジスタ指定子、`aaa`はアドレス指定方式を示す。このような命令は、4ビットのオペコードと、1ビットのレジスタ指定子、3ビットのアドレス指定方式を持つ。
 
-:::{figure-md} pep9_instruction
-<img src="./image/pep9_ins.drawio.svg" alt="Pep/9 Instruction" width="500px">
+:::{figure-md} image/program-pep9_ins.drawio.svg
+:label: pep9_instruction_specifier
+:alt: Pep/9 Instruction Specifier
+:width: 500px
+:align: center
 
 Pep/9のinstruction specifier
 :::
