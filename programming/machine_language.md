@@ -60,7 +60,7 @@ Pep/9の命令セットには40種類の命令がある。
 :::{figure} image/program-instruction.drawio.svg
 :label: pep9_instruction_format
 :alt: Pep/9 Instruction Format
-:width: 500px
+:width: 700px
 :align: center
 
 Pep/9の命令
@@ -91,7 +91,7 @@ Pep/9の命令
 
 `1100 raaa`は、メモリからワードをレジスタにロードする命令である。ここで、`1100`はオペコードで、`r`はレジスタ指定子、`aaa`はアドレス指定方式を示す。このような命令は、4ビットのオペコードと、1ビットのレジスタ指定子、3ビットのアドレス指定方式を持つ。
 
-:::{figure-md} image/program-pep9_ins.drawio.svg
+:::{figure} image/program-pep9_ins.drawio.svg
 :label: pep9_instruction_specifier
 :alt: Pep/9 Instruction Specifier
 :width: 500px
