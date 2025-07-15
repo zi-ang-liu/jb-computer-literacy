@@ -218,6 +218,27 @@ int main() {
 }
 ```
 
+反復構造は、よく一連のデータを順番に処理する場合に使用される。このような処理に対し、for-eachという構造を用いることもある。擬似コードでは、以下のように表現される。
+
+```{prf:algorithm} for-each structure
+:label: for-each-structure
+1. **for each** item in collection **do**
+   1. activity
+```
+
+例えば、`[1, 2, 3, 4, 5]`というリストの各要素の2乗を計算するpythonのコードは以下のようになる。
+
+```{code} python
+:label: for-each-python
+:caption: For-each structure in Python
+numbers = [1, 2, 3, 4, 5]
+
+for number in numbers:
+    square = number ** 2
+    print(square)
+```
+
+
 ## 練習問題
 
 ```{exercise}
