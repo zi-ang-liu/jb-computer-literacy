@@ -46,6 +46,9 @@ project:
         - file: algorithm/problem-solving.md
         - file: algorithm/searching.md
         - file: algorithm/sorting.md
+    
+    - url: 'https://colab.research.google.com
+      title: Google Colab
 
 site:
   template: book-theme
