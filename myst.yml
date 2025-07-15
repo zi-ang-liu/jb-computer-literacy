@@ -19,6 +19,7 @@ project:
     - file: intro.md
     - file: algorithm/algorithm.md
     - file: algorithm/problem-solving.md
+    - file: algorithm/searching.md
 
 site:
   template: book-theme
