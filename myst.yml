@@ -19,7 +19,6 @@ project:
     - file: intro.md
     - file: algorithm/algorithm.md
     - file: algorithm/problem-solving.md
-    - file: algorithm/testing.md
 
 site:
   template: book-theme

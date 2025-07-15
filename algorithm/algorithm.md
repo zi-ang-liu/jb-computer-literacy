@@ -1,17 +1,17 @@
 # アルゴリズム
 
-```{epigraph}
-Today, computer science has established itself as the science of algorithms.
-
--- G. Brookshear and D. Brylow, Computer Science: An Overview, 13th ed. Pearson, 2018.
-```
-
 :::{important} Objective 
 - アルゴリズムの概念を理解する。
 - 代入、選択構造、反復構造を理解し、擬似コードで表現できる。
 :::
 
 ## アルゴリズムとは
+
+```{epigraph}
+Today, computer science has established itself as the science of algorithms.
+
+-- G. Brookshear and D. Brylow, Computer Science: An Overview, 13th ed. Pearson, 2018.
+```
 
 **アルゴリズム**（algorithm）とは、問題を解決するための手順を指す。今までは、いくつかのアルゴリズムを紹介してきた。
 
