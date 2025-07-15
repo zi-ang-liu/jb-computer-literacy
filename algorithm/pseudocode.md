@@ -107,11 +107,11 @@ print(result)
 #include <stdio.h>
 int main() {
     int score = 75;
-    string result;
+    char result[10];
     if (score >= 60) {
-        result = "Pass";
+        sprintf(result, "Pass");
     } else {
-        result = "Fail";
+        sprintf(result, "Fail");
     }
     printf("%s\n", result);
     return 0;
