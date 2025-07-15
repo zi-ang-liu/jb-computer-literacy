@@ -1,4 +1,4 @@
-# Computer Science
+# コンピューターサイエンス
 
 <!-- research has shown that students understand concrete examples more easily than abstract ones, even when the students themselves are abstract thinkers.  -->
 

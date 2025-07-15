@@ -24,20 +24,21 @@ project:
         - file: information/number.md
         - file: information/text.md
 
-    - title: Hardware
+    - title: ハードウェア
       children:
         - file: hardware/intro.md
         - file: hardware/gate.md
         - file: hardware/circuits.md
         - file: hardware/computer_architecture.md
-    - title: Programming
+
+    - title: プログラミング言語
       children:
         - file: programming/intro.md
         - file: programming/machine_language.md
         - file: programming/assembly_language.md
         # - file: programming/high_level_language.md
         
-    - title: Algorithm
+    - title: アルゴリズム
       children:
         - file: algorithm/intro.md
         - file: algorithm/pseudocode.md
