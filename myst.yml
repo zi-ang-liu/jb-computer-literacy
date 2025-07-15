@@ -22,6 +22,7 @@ project:
         - file: algorithm/pseudocode.md
         - file: algorithm/problem-solving.md
         - file: algorithm/searching.md
+        - file: algorithm/sorting.md
 
 site:
   template: book-theme
