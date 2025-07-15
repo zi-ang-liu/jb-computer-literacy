@@ -79,7 +79,7 @@ int main() {
 }
 ```
 
-## 整列配列に対する線形探索
+### 整列配列に対する線形探索
 
 ソートされた配列を整列配列（sorted array）と呼ぶ。例えば、`[1, 2, 3, 4, 5]`、`['a', 'c', 'd', 'e']`、`["Alice", "Bob", "Charlie"]`などが整列配列である。
 
@@ -100,4 +100,85 @@ int main() {
 
 :::{note}
 要素数が奇数の場合、中央の要素は真ん中の要素を指す。偶数の場合は、中央の2つの要素のうち、どちらを選んでもよい。ここでは左側の要素を選ぶことにする。
+
+$L$と$R$はそれぞれ、探索範囲の左端と右端を指すとし、$\lfloor (L + R) / 2 \rfloor$で中央の要素を求める。ここでは、$\lfloor x \rfloor$は$x$の小数点以下を切り捨てた整数を表し、$x$のfloorと呼ばれる。
+
+例えば、$L = 1$、$R = 10$の場合、中央の要素は$\lfloor (1 + 10) / 2 \rfloor = \lfloor 5.5 \rfloor = 5$となる。また、$L = 6$、$R = 10$の場合、中央の要素は$\lfloor (6 + 10) / 2 \rfloor = \lfloor 8 \rfloor = 8$となる。
 :::
+
+$n$個の要素を持つ整列配列$l$があるとき、ある目的要素$x$が存在するかどうかを調べる二分探索は、次のように定義される。
+
+```{prf:algorithm} binary search
+:label: binary-search
+
+**Input**: 整列配列 $l = [l_1, l_2, \ldots, l_n]$, 目的要素 $x$   
+**Output**: $\texttt{found} \in \{\texttt{True}, \texttt{False}\}$
+
+1. $\texttt{found} \gets \texttt{False}$
+2. $L \gets 1$
+3. $R \gets n$
+4. **while** $L \leq R$ and $\texttt{found} = \texttt{False}$ **do**
+   1. $m \gets \lfloor (L + R) / 2 \rfloor$  
+   2. **if** $l_m = x$ **then**
+      1. $\texttt{found} \gets \texttt{True}$
+   3. **else if** $l_m < x$ **then**
+      1. $L \gets m + 1$
+   4. **else**
+      1. $R \gets m - 1$
+5. **return** $\texttt{found}$
+```
+
+以下は、PythonとC言語での実装例である。
+
+```{code} python
+:label: binary-search-python
+:caption: Binary search in Python
+def binary_search(l, x):
+    found = False
+    L = 0
+    R = len(l) - 1
+    while L <= R and not found:
+        m = (L + R) // 2
+        if l[m] == x:
+            found = True
+        elif l[m] < x:
+            L = m + 1
+        else:
+            R = m - 1
+    return found
+
+if __name__ == "__main__":
+    l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    x = 9
+    print(binary_search(l, x))  # True
+```
+
+```{code} c
+:label: binary-search-c
+:caption: Binary search in C
+#include <stdio.h>
+
+int binary_search(int l[], int n, int x) {
+    int found = 0; // 0: False, 1: True
+    int L = 0;
+    int R = n - 1;
+    while (L <= R && !found) {
+        int m = (L + R) / 2;
+        if (l[m] == x) {
+            found = 1;
+        } else if (l[m] < x) {
+            L = m + 1;
+        } else {
+            R = m - 1;
+        }
+    }
+    return found;
+}
+int main() {
+    int l[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int n = sizeof(l) / sizeof(l[0]);
+    int x = 9;
+    printf("%d\n", binary_search(l, n, x));  // 1 (True)
+    return 0;
+}
+```
