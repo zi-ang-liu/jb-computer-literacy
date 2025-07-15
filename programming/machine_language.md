@@ -57,7 +57,7 @@ Pep/9の命令セットには40種類の命令がある。
 
 命令は、**命令部**（Instruction Specifier）と**オペランド部**（Operand Specifier）の2つの部分で構成される。命令部は、命令の種類を示す8ビットのビットパターンである。オペランド部は、命令が操作するデータのアドレスや値を示す16ビットのビットパターンである。そのため、Pep/9の命令は、合計24ビット（3バイト）で表現される。
 
-```{figure} image/pep9_instruction_format.drawio.svg
+```{figure} image/program-pep9_ins.drawio.svg
 :label: pep9_instruction_format
 :alt: Pep/9 Instruction Format
 :width: 500px
