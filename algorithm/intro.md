@@ -1,11 +1,8 @@
-# アルゴリズム
+# アルゴリズムとは
 
 :::{important} Objective 
 - アルゴリズムの概念を理解する。
-- 代入、選択構造、反復構造を理解し、擬似コードで表現できる。
 :::
-
-## アルゴリズムとは
 
 ```{epigraph}
 Today, computer science has established itself as the science of algorithms.
