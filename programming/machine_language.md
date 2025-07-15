@@ -65,7 +65,7 @@ Pep/9の命令セットには40種類の命令がある。
 Relaxing at the beach 🏝 🌊 😎
 ```
 
-```{image} ../image/pep9_instruction_format.drawio.svg
+```{image} programming/image/pep9_ins.drawio.svg
 :alt: Grapes on a vineyard
 :width: 500px
 :align: center
