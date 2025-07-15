@@ -1,4 +1,4 @@
-# コンピューターサイエンス
+# Computer Science
 
 <!-- research has shown that students understand concrete examples more easily than abstract ones, even when the students themselves are abstract thinkers.  -->
 
@@ -8,8 +8,11 @@
 
 現代生活では、自動車、スマートフォン、コンピューターなど、抽象化されたシステムが数多く存在する。これらのシステムは、複雑な内部構造を持ちながらも、ユーザーにとっては簡単に操作できるようになっている。
 
-:::{figure-md} 自動車エンジン
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Dacia_Logan_MCV_Model_2009_05.JPG" alt="自動車エンジン" width="150px">
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/2/24/Dacia_Logan_MCV_Model_2009_05.JPG
+:label: car_engine
+:alt: 自動車エンジン
+:width: 150px
+:align: center
 
 自動車エンジンの原理がわからなくても、自動車の運転はできる。
 :::
@@ -26,8 +29,11 @@
 
 下の図は，日本のスーパーコンピューター「富岳」を示している．
 
-:::{figure-md} Fugaku
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/03/RIKEN_R-CCS_Fugaku.jpg" alt="富岳" width="300px">
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/0/03/RIKEN_R-CCS_Fugaku.jpg
+:label: Fugaku
+:alt: 富岳
+:width: 300px
+:align: center
 
 兵庫県神戸市に設置されている「富岳」 © [Barsaka2](https://commons.wikimedia.org/wiki/File:RIKEN_R-CCS_Fugaku.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 :::
@@ -43,8 +49,11 @@
 
 **システムソフトウェア**（system software）は，コンピューターのハードウェアを制御や管理するためのソフトウェアである．また，アプリケーションソフトウェアが動作するための環境を提供する．よく知られているシステムソフトウェアとして，**オペレーティングシステム**（operating system, OS）がある．Microsoft Windows，macOS，Linux，Androidなどがオペレーティングシステムの例である．
 
-:::{figure-md} ハードウェアとソフトウェア
-<img src="./image/hardware_software.svg" alt="ハードウェアとソフトウェア" width="150px">
+:::{figure} image/hardware_software.svg
+:label: hardware_software
+:alt: ハードウェアとソフトウェア
+:width: 150px
+:align: center
 
 ハードウェアとソフトウェア
 :::
@@ -57,8 +66,11 @@ A computer system is like an onion, made up of many layers.
 -- N. Dale and J. Lewis, Computer science illuminated, 7th ed. Sudbury, MA: Jones and Bartlett, 2024.
 ```
 
-:::{figure-md} コンピューターサイエンス
-<img src="./image/cs.drawio.svg" alt="コンピューターサイエンス" width="150px">
+:::{figure} image/cs.drawio.svg
+:label: cs_intro
+:alt: コンピューターサイエンス
+:width: 150px
+:align: center
 
 コンピューターサイエンス
 :::
