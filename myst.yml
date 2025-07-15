@@ -19,7 +19,7 @@ project:
     - file: intro.md
     - file: algorithm/intro.md
       children:
-        - file: algorithm/algorithm.md
+        - file: algorithm/pseudocode.md
         - file: algorithm/problem-solving.md
         - file: algorithm/searching.md
 
