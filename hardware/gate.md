@@ -53,7 +53,10 @@ $A$と$B$の少なくとも一方が$1$のとき，$A \lor B = 1$となる．
 論理和の演算を行うORゲートは次の記号で表現される．
 
 :::{figure} https://upload.wikimedia.org/wikipedia/commons/1/16/OR_ANSI_Labelled.svg
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/16/OR_ANSI_Labelled.svg" alt="OR Gate" width="200px">
+:label: or_gate
+:alt: OR Gate
+:width: 200px
+:align: center
 
 ORゲート
 :::
