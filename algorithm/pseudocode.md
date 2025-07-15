@@ -35,7 +35,7 @@ $$\texttt{profit} \gets \texttt{revenue} - \texttt{cost}$$
 
 以下は、PythonとC言語での実装例である。
 
-:::{note}
+:::{tip}
 PythonはGoogle Colabの環境で簡単に実行できる。以下の手順で試してみよう。
 
 1. [Google Colab](https://colab.research.google.com/)にアクセスする。
