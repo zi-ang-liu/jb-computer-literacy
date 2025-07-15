@@ -35,14 +35,14 @@ $$\texttt{profit} \gets \texttt{revenue} - \texttt{cost}$$
 
 以下は、PythonとC言語での実装例である。
 
-:::{note}
+<!-- :::{note}
 PythonはGoogle Colabの環境で簡単に実行できる。以下の手順で試してみよう。
 
 1. [Google Colab](https://colab.research.google.com/)にアクセスする。
 2. 「新しいノートブック」をクリックする。
 3. 上記のコードをコピーして、セルに貼り付ける。
 4. セルを実行する。
-:::
+::: -->
 
 ```{code} python
 :label: profit-python
