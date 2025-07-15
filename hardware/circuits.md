@@ -63,8 +63,11 @@ $$
 
 $A$，$B$，$S$だけを見ると，これはXORゲートで実現できる．$A$，$B$，$C$だけを見ると，これはANDゲートで実現できる．したがって、半加算器は次のように表現できる．
 
-:::{figure-md} half-adder
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Half_Adder.svg" alt="half adder" width="300px">
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/d/d9/Half_Adder.svg
+:label: half_adder
+:alt: half adder
+:width: 300px
+:align: center
 
 半加算器
 :::
@@ -90,12 +93,14 @@ NORゲートは、入力信号が両方とも0のときに出力が1になるゲ
 
 SRラッチは、$S$（Set）と$R$（Reset）の二つの入力信号を持ち、出力信号は$Q$と$\bar{Q}$で表される．$Q$は記憶されている値を表し、$\bar{Q}$はその否定を表す．
 
-:::{figure-md} SR Latch
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/R-S_mk2.gif" alt="SR Latch" width="300px">
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/c/c6/R-S_mk2.gif
+:label: sr_latch
+:alt: SR Latch
+:width: 300px
+:align: center
 
-NORゲートを用いたSRラッチ．赤は1，黒は0を表す．
+SRラッチ
 :::
-
 
 SRラッチの動作は次の通りである．
 
@@ -127,8 +132,11 @@ SRラッチの動作は次の通りである．
 
 1. 以下の図に示す論理回路の真理値表を作成せよ．
 
-:::{figure-md} logic_circuit
-<img src="./image/circuit-1.drawio.svg" alt="Logic Circuit 1" width="300px">
+:::{figure} image/circuit-1.drawio.svg
+:label: logic_circuit
+:alt: Logic Circuit 1
+:width: 300px
+:align: center
 
 問題1
 :::
@@ -140,10 +148,13 @@ SRラッチの動作は次の通りである．
 | 1    | 0   | ウ     |
 | 1    | 1   | エ     |
 
-2. 以下の図に示す論理回路の真理値表を作成せよ．
+1. 以下の図に示す論理回路の真理値表を作成せよ．
 
-:::{figure-md} logic_circuit_2
-<img src="./image/circuit-2.drawio.svg" alt="Logic Circuit 2" width="300px">
+:::{figure} image/circuit-2.drawio.svg
+:label: logic_circuit_2
+:alt: Logic Circuit 2
+:width: 300px
+:align: center
 
 問題2
 :::

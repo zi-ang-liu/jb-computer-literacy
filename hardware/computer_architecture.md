@@ -50,8 +50,11 @@ GB（ギガバイト）は，$10^9$倍のバイトを表わす．**バイト**�
 
 現在のほとんどのコンピューターは，**ノイマン型**（von Neumann architecture）と呼ばれるアーキテクチャに基づいて設計されている．ノイマン型コンピューターは，演算装置，制御装置，記憶装置，入力装置，出力装置から構成される．これらの装置は，日本では**コンピューターの5大装置**とも呼ばれる．次の図では，ノイマン型を示している．
 
-:::{figure-md} VonNeumann
-<img src="./image/VonNeumann.svg" alt="ノイマン型アーキテクチャ" width="300px">
+:::{figure} image/VonNeumann.svg
+:label: VonNeumann
+:alt: ノイマン型アーキテクチャ
+:width: 300px
+:align: center
 
 ノイマン型
 :::
@@ -64,8 +67,11 @@ GB（ギガバイト）は，$10^9$倍のバイトを表わす．**バイト**�
 
 **演算装置**は，算術論理演算装置（arithmetic/logic unit, ALU）とも呼ばれ，算術演算や論理演算を行う装置である．**制御装置**（control unit, CU）は，プログラムの命令を解読して他の装置を制御する．演算装置と制御装置を統合したものを**中央処理装置**（central processing unit, CPU）と呼ぶ．CPUは，コンピューターの中心的な役割を果たし，コンピューターの頭脳とも呼ばれる．以下の図は，2024年10月から発売されているIntel Core UltraシリーズのCPUである．
 
-:::{figure-md} intel_ultra
-<img src="./image/intel_ultra.png" alt="Intel Core Ultra" width="300px">
+:::{figure} image/intel_ultra.png
+:label: intel_ultra
+:alt: Intel Core Ultra
+:width: 300px
+:align: center
 
 Intel Core Ultra © [ZMASLO](https://www.youtube.com/@ZMASLO)
 :::
@@ -89,8 +95,11 @@ CPUがこのサイクルを繰り返すことで，プログラムが実行さ�
 
 現在のCPUは、演算装置、制御装置、**レジスタ**（register）と呼ばれる高速な記憶装置を持つ．レジスタは、CPU内部でデータを一時的に保存するための記憶装置である．レジスタは、CPUが直接アクセスできるため、主記憶装置よりも高速にデータを読み書きできる．CPUは、**バス**（bus）と呼ばれる回線を通じて、記憶装置とデータをやり取りする．
 
-:::{figure-md} cpu_registers
-<img src="./image/cpu.drawio.svg" alt="CPU Registers" width="300px">
+:::{figure} image/cpu.drawio.svg
+:label: cpu_registers
+:alt: CPU Registers
+:width: 300px
+:align: center
 
 CPUと主記憶装置
 :::
@@ -101,8 +110,11 @@ CPUと主記憶装置
 
 **主記憶装置**（main memory）は，CPUが直接アクセスできる記憶装置である．主記憶装置はデータやプログラムを一時的に保存する．電源を切るとデータが消える**揮発性**（volatile）を持つ．
 
-:::{figure-md} main_memory
-<img src="./image/main_memory.jpg" alt="Main Memory" width="200px">
+:::{figure} image/main_memory.jpg
+:label: main_memory
+:alt: Main Memory
+:width: 200px
+:align: center
 
 パソコン用の主記憶装置 © [Evan-Amos](https://commons.wikimedia.org/wiki/User:Evan-Amos), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 :::
@@ -117,8 +129,11 @@ CPUと主記憶装置
 
 コンピューターの入力装置と出力装置を合わせて**入出力装置**（I/O device）と呼ぶ．**インタフェース**（interface）は，コンピューター本体と周辺機器との間でデータをやり取りするための方式である．コンピューター本体に周辺装置との入出力のため設けられた接続端子を**ポート**（port）と呼ぶ．次の図は，ThinkPad L13 Gen 4 AMDのポートを示している．
 
-:::{figure-md} thinkpad_ports
-<img src="./image/lenovo-jp-thinkpad-l13-gen4-13-amd-ports-01.avif" alt="ThinkPad Ports" width="500px">
+:::{figure} image/lenovo-jp-thinkpad-l13-gen4-13-amd-ports-01.avif
+:label: thinkpad_ports
+:alt: ThinkPad Ports
+:width: 500px
+:align: center
 
 ThinkPad L13 Gen 4 AMD © [Lenovo](https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpad-l-series/thinkpad-l13-gen-4-13-inch-amd/21fn001fjp)
 :::

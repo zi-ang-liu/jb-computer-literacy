@@ -78,8 +78,11 @@ $A$と$B$の両方が$1$のとき，$A \land B = 1$となる．
 
 論理積の演算を行うANDゲートは次の記号で表現される．
 
-:::{figure-md} and_gate
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/AND_ANSI_Labelled.svg" alt="AND Gate" width="200px">
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/b/b9/AND_ANSI_Labelled.svg
+:label: and_gate
+:alt: AND Gate
+:width: 200px
+:align: center
 
 ANDゲート
 :::
@@ -99,8 +102,11 @@ $A$が$1$のとき，$\lnot A = 0$となり，$A$が$0$のとき，$\lnot A = 1$
 
 否定の演算を行うNOTゲートは次の記号で表現される．
 
-:::{figure-md} not_gate
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/60/NOT_ANSI_Labelled.svg" alt="NOT Gate" width="200px">
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/6/60/NOT_ANSI_Labelled.svg
+:label: not_gate
+:alt: NOT Gate
+:width: 200px
+:align: center
 
 NOTゲート
 :::
@@ -122,8 +128,11 @@ $A$と$B$のうち一方だけが$1$のとき，$A \oplus B = 1$となる．
 
 排他的論理和の演算を行うXORゲートは次の記号で表現される．
 
-:::{figure-md} xor_gate
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/XOR_ANSI_Labelled.svg" alt="XOR Gate" width="200px">
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/1/17/XOR_ANSI_Labelled.svg
+:label: xor_gate
+:alt: XOR Gate
+:width: 200px
+:align: center
 
 XORゲート
 :::
@@ -147,8 +156,11 @@ $$
 
 否定論理積の演算を行うNANDゲートは次の記号で表現される。
 
-:::{figure-md} nand_gate
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/NAND_ANSI_Labelled.svg" alt="NAND Gate" width="200px">
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/e/e6/NAND_ANSI_Labelled.svg
+:label: nand_gate
+:alt: NAND Gate
+:width: 200px
+:align: center
 
 NANDゲート
 :::
@@ -172,8 +184,11 @@ $$
 
 否定論理和の演算を行うNORゲートは次の記号で表現される。
 
-:::{figure-md} nor_gate
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/NOR_ANSI_Labelled.svg" alt="NOR Gate" width="200px">
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/c/c6/NOR_ANSI_Labelled.svg
+:label: nor_gate
+:alt: NOR Gate
+:width: 200px
+:align: center
 
 NORゲート
 :::
