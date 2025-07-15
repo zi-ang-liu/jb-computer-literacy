@@ -45,6 +45,11 @@ Pólyaの問題解決のプロセスは、従うべき手順ではなく、完�
 
 「いかにして問題をとくか」において、Pólyaは問題解決のためのヒューリスティック（heuristic）を紹介している。ヒューリスティックとは、試行錯誤しながら経験と発明を積み重ねることによって問題を解いてゆく方法である。
 
+下の表は、Pólyaが提案するヒューリスティックの一部を示している。
+
+:::{table} 問題解決のためのヒューリスティック
+:label: heuristic
+:align: center
 
 | ヒューリスティック       | 説明                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------ |
@@ -54,6 +59,8 @@ Pólyaの問題解決のプロセスは、従うべき手順ではなく、完�
 | 帰納（Induction）        | Can you solve your problem by deriving a generalization from some examples?    |
 | 分解（Decomposition）    | Can you decompose the problem and "recombine its elements in some new manner"? |
 
+:::
 
+## トップダウン設計とボトムアップ設計
 
 
