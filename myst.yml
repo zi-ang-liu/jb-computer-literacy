@@ -35,7 +35,7 @@ project:
         - file: programming/intro.md
         - file: programming/machine_language.md
         - file: programming/assembly_language.md
-        - file: programming/high_level_language.md
+        # - file: programming/high_level_language.md
         
     - title: Algorithm
       children:
