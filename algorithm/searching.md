@@ -22,4 +22,13 @@ $n$個の要素を持つリスト$l$があるとき、ある目的要素$x$が�
 **Input**: リスト $l = [l_1, l_2, \ldots, l_n]$, 目的要素 $x$   
 **Output**: $\texttt{found} \in \{\texttt{True}, \texttt{False}\}$
 
+1. $\texttt{found} \gets \texttt{False}$
+2. $i \gets 1$
+3. **while** $i \leq n$ **do**
+    1. **if** $l_i = x$ **then**
+        1. $\texttt{found} \gets \texttt{True}$
+        2. **break**
+    2. **else**
+        1. $i \gets i + 1$
+4. **return** $\texttt{found}$
 ```
