@@ -1,4 +1,4 @@
-# Searching Algorithms
+# 探索アルゴリズム
 
 ## 線形探索
 
