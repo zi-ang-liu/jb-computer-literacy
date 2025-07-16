@@ -4,6 +4,15 @@
 
 Wordを起動したら、次のような画面が表示されます。ここには、「白紙の文書」、「カレンダー」などのテンプレートが用意されています。その下にある「その他のテンプレート」を選択すると、「請求書」、「賞状」などさらに多くのテンプレートが用意されています。
 
+:::{figure} images/new/word_start.png
+:label: word_start
+:alt: Wordの起動画面
+:width: 600px
+:align: center
+
+Wordの起動画面
+:::
+
 :::{figure-md} word_start
 <img src="./images/new/word_start.png" alt="Wordの起動画面" width="600px">
 
@@ -15,6 +24,15 @@ Wordの起動画面
 ## Wordの画面構成
 
 Wordの起動画面で「白紙の文書」を選択すると、以下のような画面が表示されます。
+
+:::{figure} images/new/word_blank.drawio.png
+:label: word_blank
+:alt: 白紙の文書
+:width: 600px
+:align: center
+
+白紙の文書
+:::
 
 :::{figure-md} word_blank
 <img src="./images/new/word_blank.drawio.png" alt="白紙の文書" width="600px">
@@ -36,6 +54,15 @@ Wordの画面は、以下のように構成されています。
 ## 基本的な操作
 
 「ホーム」タブには、「フォント」グループを用いて、文字の装飾を行うことができます。
+
+:::{figure} images/new/font_group.drawio.png
+:label: font_group
+:alt: 「フォント」グループ
+:width: 600px
+:align: center
+
+「フォント」グループ
+:::
 
 :::{figure-md} word_blank
 <img src="./images/new/font_group.drawio.png" alt="「フォント」グループ" width="600px">

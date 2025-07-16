@@ -12,6 +12,15 @@
 
 以下の図のように、「ホーム」タブの「スタイル」グループには、「標準」、「見出し1」、「表題」、「引用」などのスタイルが用意されています。
 
+:::{figure} images/style/word_style.png
+:label: word_style
+:alt: Wordのスタイル
+:width: 600px
+:align: center
+
+Wordのスタイル
+:::
+
 :::{figure-md} word_style
 <img src="./images/word_style.png" alt="スタイルの設定" width="600px">
 
@@ -32,6 +41,15 @@ Wordのスタイル
 ```
 
 上記の内容を入力すると、以下のようになります。「スタイル」グループを確認すると、「標準」が選択されていることがわかります。これは、デフォルトで入力される文字列に適用されるスタイルです。
+
+:::{figure} images/style/word_style_text.png
+:label: word_style_text
+:alt: スタイルの設定
+:width: 600px
+:align: center
+
+「標準」スタイルで入力された文字列
+:::
 
 :::{figure-md} word_style_text
 <img src="./images/word_style_text.png" alt="スタイルの設定" width="600px">
