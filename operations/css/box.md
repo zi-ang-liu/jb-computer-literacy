@@ -10,14 +10,16 @@
 :::{figure} https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png
 :width: 500px
 :alt: CSS Box Model
-:class: no-caption
-:::
-
-:::{figure-md} CSS Box Model
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png" alt="CSS Box Model" width="500px">
+:align: center
 
 CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 :::
+
+<!-- :::{figure-md} CSS Box Model
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png" alt="CSS Box Model" width="500px">
+
+CSSボックスモデル，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+::: -->
 
 
 ## ボーダー

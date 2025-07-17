@@ -27,11 +27,11 @@ Windowsでは、マイクロソフト日本語IME (Input Method Editor)を用い
 予測候補
 :::
 
-:::{figure-md} prediction
+<!-- :::{figure-md} prediction
 <img src="./images/ime/prediction.png" alt="予測候補" width="400px">
 
 予測候補
-:::
+::: -->
 
 ### 変換候補
 
@@ -46,11 +46,11 @@ Windowsでは、マイクロソフト日本語IME (Input Method Editor)を用い
 変換候補
 :::
 
-:::{figure-md} conversion
+<!-- :::{figure-md} conversion
 <img src="./images/ime/conversion.png" alt="変換候補" width="400px">
 
 変換候補
-:::
+::: -->
 
 このウィンドウで<kbd>space</kbd>キーを押すと、次の候補に移動します。また、<kbd>Enter</kbd>キーを押すと、選択した候補が入力されます。
 
@@ -77,11 +77,11 @@ IMEの設定を変更するには、IMEのアイコン「A」や「あ」を右�
 ホームポジション © [Cy21](https://commons.wikimedia.org/wiki/User:Cy21), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 :::
 
-:::{figure-md} home-position
+<!-- :::{figure-md} home-position
 <img src="./images/ime/home-position.svg" alt="ホームポジション" width="400px">
 
 ホームポジション © [Cy21](https://commons.wikimedia.org/wiki/User:Cy21), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
-:::
+::: -->
 
 タイピングをするときは、このホームポジションから指を動かして、キーを押します。キーを押したら、すぐにホームポジションに戻ります。効率的にタイピングするために、各指が担当するキーを覚えることが重要です。下の図は、各指の担当キーを示しています。
 
@@ -94,11 +94,11 @@ IMEの設定を変更するには、IMEのアイコン「A」や「あ」を右�
 各指の担当キー © [Wikipedia](https://commons.wikimedia.org/wiki/File:TouchTyping_HomePosition_QWERTY.png), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 :::
 
-:::{figure-md} home-position-2
+<!-- :::{figure-md} home-position-2
 <img src="./images/ime/home-position-2.png" alt="ホームポジション" width="400px">
 
 各指の担当キー © [Wikipedia](https://commons.wikimedia.org/wiki/File:TouchTyping_HomePosition_QWERTY.png), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
-:::
+::: -->
 
 タッチタイピングを練習するときは、まずホームポジションから指を動かして、キーボードを見ながら各キーを押します。次に、キーボードを見ずに、指の位置を覚えてタイピングします。最初はゆっくりと練習し、徐々にスピードを上げていきます。メモ帳などのアプリケーションを使って、好きな文章を入力して練習するとよいでしょう。また、無料のタッチタイピング練習サイトもありますので、利用してみてください。
 

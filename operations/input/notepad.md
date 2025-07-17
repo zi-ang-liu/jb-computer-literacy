@@ -15,11 +15,12 @@
 :::
 
 <!-- ![start-notepad](../how-to-use/images/notepad/start-notepad.png) -->
-:::{figure-md} start-notepad
+
+<!-- :::{figure-md} start-notepad
 <img src="./images/notepad/start-notepad.png" alt="メモ帳の起動" width="200px">
 
 メモ帳の起動
-:::
+::: -->
 
 メモ帳の起動したら、次のような画面が表示されます。点滅している縦棒が、カーソルです。カーソルの位置に文字が入力されます。
 
@@ -32,11 +33,11 @@
 メモ帳の基本画面
 :::
 
-:::{figure-md} notepad
+<!-- :::{figure-md} notepad
 <img src="./images/notepad/notepad.png" alt="メモ帳" width="600px">
 
 メモ帳の基本画面
-:::
+::: -->
 
 <!-- 
 ## 設定

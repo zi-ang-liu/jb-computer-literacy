@@ -44,11 +44,11 @@
 数式の入力
 :::
 
-:::{figure-md} formula
+<!-- :::{figure-md} formula
 <img src="images/word_formula.png" alt="数式の入力" width="600px">
 
 数式の入力
-:::
+::: -->
 
 「数式」タブには「ツール」、「変換」、「記号と特殊文字」、「構造」のグループがあります。「記号と特殊文字」と「構造」グループを用いて、直感的に数式を入力することができます。
 
@@ -95,11 +95,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 式番号の挿入
 :::
 
-:::{figure-md} formula-number
+<!-- :::{figure-md} formula-number
 <img src="images/word_formula_number.png" alt="式番号" width="600px">
 
 式番号の挿入
-:::
+::: -->
 
 ## 画像の挿入
 
@@ -114,11 +114,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 画像の挿入元の選択
 :::
 
-:::{figure-md} image-source
+<!-- :::{figure-md} image-source
 <img src="images/word_image.png" alt="画像の挿入元の選択" width="600px">
 
 画像の挿入元の選択
-:::
+::: -->
 
 - **このデバイス...**：PC内の画像ファイルを選択して挿入します。
 - **ストック画像...**：Microsoftの提供する画像を選択して挿入します。アイコン、マンガ、イラストなどがあります。
@@ -135,11 +135,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 画像の例
 :::
 
-:::{figure-md} image-example
+<!-- :::{figure-md} image-example
 <img src="images/example.png" alt="画像の例" width="200px">
 
 画像の例
-:::
+::: -->
 
 ワードの画面に戻り、以下の手順で画像を挿入します。
 
@@ -159,11 +159,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 「図の形式」タブ
 :::
 
-:::{figure-md} image-format
+<!-- :::{figure-md} image-format
 <img src="images/word_image_format.png" alt="図の形式" width="600px">
 
 「図の形式」タブ
-:::
+::: -->
 
 ## 表の作成
 
@@ -177,11 +177,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 表の挿入
 :::
 
-:::{figure-md} table-insert
+<!-- :::{figure-md} table-insert
 <img src="images/word_table.png" alt="表の挿入" width="600px">
 
 表の挿入
-:::
+::: -->
 
 表が挿入されると、「テーブル デザイン」と「テーブル レイアウト」タブが表示されます。必要に応じて、これらのタブを使って、表のスタイルやレイアウトを設定できます。
 
@@ -194,12 +194,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 「テーブル デザイン」と「テーブル レイアウト」タブ
 :::
 
-
-:::{figure-md} table-design
+<!-- :::{figure-md} table-design
 <img src="images/edit/table_design.png" alt="表のデザイン" width="600px">
 
 「テーブル デザイン」と「テーブル レイアウト」タブ
-:::
+::: -->
 
 次に、表の中にテキストを入力します。<kbd>Tab</kbd>キーやマウスで、セルの移動ができます。また、学籍番号と年齢は半角で入力することを忘れないようにしましょう。
 
@@ -216,11 +215,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 表の入力
 :::
 
-:::{figure-md} table-input
+<!-- :::{figure-md} table-input
 <img src="images/edit/table_input.png" alt="表の入力" width="600px">
 
 表の入力
-:::
+::: -->
 
 表の罫線（けいせん）を必要に応じて変更することができます。
 
@@ -234,11 +233,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 罫線の変更
 :::
 
-:::{figure-md} table-line
+<!-- :::{figure-md} table-line
 <img src="images/edit/table_line.png" alt="罫線の変更" width="600px">
 
 罫線の変更
-:::
+::: -->
 
 論文やレポートを作成する際には、一般的に表の最上行、最下行、見出し行に罫線を引きます。
 
@@ -250,11 +249,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 表の罫線の例
 :::
 
-:::{figure-md} table-line-ex
+<!-- :::{figure-md} table-line-ex
 <img src="images/edit/table_line_ex.png" alt="罫線の例" width="600px">
 
 表の罫線の例
-:::
+::: -->
 
 ## 図表番号の挿入
 
@@ -271,11 +270,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 対象の図表を選択
 :::
 
-:::{figure-md} number-1
+<!-- :::{figure-md} number-1
 <img src="images/edit/number_1.png" alt="対象の図表を選択" width="600px">
 
 対象の図表を選択
-:::
+::: -->
 
 次に、「図表番号」ダイアログが表示されます。「ラベル」から「図」または「表」を選択し、「OK」をクリックします。
 
@@ -288,12 +287,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 「図表番号」ダイアログ
 :::
 
-
-:::{figure-md} number-2
+<!-- :::{figure-md} number-2
 <img src="images/edit/number_2.png" alt="「図表番号」" width="600px">
 
 「図表番号」ダイアログ
-:::
+::: -->
 
 図番号は図の下に、表番号は表の上に挿入されます。番号の後ろに、図表の内容を説明するための**キャプション**を入力します。マウスで図表番号とキャプションを選択すると、番号の部分が濃い灰色で表示されます。これが、図表の追加や削除を行ったときに、自動的に更新される部分です。
 
@@ -306,11 +304,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 「図表番号の挿入」ダイアログ
 :::
 
-:::{figure-md} number-3
+<!-- :::{figure-md} number-3
 <img src="images/edit/number_3.png" alt="「図表番号の挿入」ダイアログ" width="600px">
 
 「図表番号の挿入」ダイアログ
-:::
+::: -->
 
 :::{note}
 式番号もこの方法で挿入できます。
@@ -335,11 +333,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 「相互参照」の選択
 :::
 
-:::{figure-md} reference-1
+<!-- :::{figure-md} reference-1
 <img src="images/edit/ref_1.png" alt="「相互参照」" width="600px">
 
 「相互参照」の選択
-:::
+::: -->
 
 「相互参照」ダイアログが表示されたら、「参照する項目」から「図」または「表」を選択し、「相互参照の文字列」を「番号トラベルのみ」に設定します。次に、挿入したい図表を選択し、「挿入」をクリックします。
 
@@ -352,11 +350,11 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 「相互参照」ダイアログ
 :::
 
-:::{figure-md} reference-2
+<!-- :::{figure-md} reference-2
 <img src="images/edit/ref_2.png" alt="「相互参照」ダイアログ" width="600px">
 
 「相互参照」ダイアログ
-:::
+::: -->
 
 すると、カーソルの位置に図表の番号が挿入されます。
 
@@ -369,8 +367,8 @@ $\TeX$（テフ）は、文書整形プログラムの一つです。$\TeX$に�
 図表番号の参照
 :::
 
-:::{figure-md} reference-3
+<!-- :::{figure-md} reference-3
 <img src="images/edit/ref_3.png" alt="図表番号の参照" width="600px">
 
 図表番号の参照
-:::
+::: -->

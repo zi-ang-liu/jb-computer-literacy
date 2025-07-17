@@ -15,11 +15,11 @@ Snipping Toolを起動するには、検索ボックスに「Snipping Tool」と
 Snipping Toolの基本操作画面
 :::
 
-:::{figure-md} open
+<!-- :::{figure-md} open
 <img src="./images/screenshot/open.png" alt="Open Snipping Tool" width="400px">
 
 Snipping Toolの基本操作画面
-:::
+::: -->
 
 ## 切り取りモード
 
@@ -39,11 +39,11 @@ Snipping Toolの基本操作画面
 切り取りモードの選択
 :::
 
-:::{figure-md} mode
+<!-- :::{figure-md} mode
 <img src="./images/screenshot/mode.png" alt="Select Mode" width="400px">
 
 切り取りモードの選択
-:::
+::: -->
 
 ## 遅延切り取り
 
@@ -58,11 +58,11 @@ Snipping Toolの基本操作画面
 遅延切り取りの設定
 :::
 
-:::{figure-md} delay
+<!-- :::{figure-md} delay
 <img src="./images/screenshot/delay.png" alt="Select Delay" width="400px">
 
 遅延切り取りの設定
-:::
+::: -->
 
 ## スクリーンショットの撮影
 
@@ -84,11 +84,11 @@ Snipping Toolの基本操作画面
 エクスプローラーのウインドウの選択
 :::
 
-:::{figure-md} example
+<!-- :::{figure-md} example
 <img src="./images/screenshot/example.png" alt="Take a Screenshot" width="600px">
 
 エクスプローラーのウインドウの選択
-:::
+::: -->
 
 ## 保存
 
@@ -104,11 +104,11 @@ Snipping Toolの画面で「…」をクリックして、「スクリーンシ�
 スクリーンショットのフォルダーを開く
 :::
 
-:::{figure-md} save
+<!-- :::{figure-md} save
 <img src="./images/screenshot/save.png" alt="Save Screenshot" width="600px">
 
 スクリーンショットのフォルダーを開く
-:::
+::: -->
 
 ## ショートカット
 

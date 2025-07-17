@@ -20,11 +20,11 @@
 新規作成のメニュー
 :::
 
-:::{figure-md} new
+<!-- :::{figure-md} new
 <img src="./images/file/new.drawio.png" alt="Create New Folder" width="600px">
 
 新規作成のメニュー
-:::
+::: -->
 
 :::{figure} images/file/new-folder.drawio.png
 :label: new-folder
@@ -35,11 +35,11 @@
 フォルダーの新規作成
 :::
 
-:::{figure-md} new-folder
+<!-- :::{figure-md} new-folder
 <img src="./images/file/new-folder.drawio.png" alt="Create New Folder" width="600px">
 
 フォルダーの新規作成
-:::
+::: -->
 
 ### テキストファイルを作成してみよう
 
@@ -57,11 +57,11 @@
 テキストファイルの新規作成
 :::
 
-:::{figure-md} new-txt
+<!-- :::{figure-md} new-txt
 <img src="./images/file/new-text.drawio.png" alt="Create New Text File" width="600px">
 
 テキストファイルの新規作成
-:::
+::: -->
 
 :::{note}
 テキストファイルには自動で「.txt」がつきます。手動で「.txt」と入力しても構いませんが、重複しないよう注意しましょう。
@@ -119,11 +119,11 @@
 拡張子の例
 :::
 
-:::{figure-md} extension
+<!-- :::{figure-md} extension
 <img src="./images/file/extension.png" alt="Extension" width="600px">
 
 拡張子の例
-:::
+::: -->
 
 <!-- Windowsでは、ファイル名にはベースファイル名と拡張子が含まれています。ベースファイル名はファイルの内容を表す名前で、拡張子はファイルの種類を示す名前です。拡張子は通常、ファイル名の最後に付けられ、ピリオド（.）でファイル名と拡張子が区切られています。例えば、`foo.txt` というファイル名の場合、`foo` がベースファイル名で、`.txt` が拡張子です。 -->
 
@@ -152,11 +152,11 @@
 圧縮
 :::
 
-:::{figure-md} compress
+<!-- :::{figure-md} compress
 <img src="./images/file/compress-1.png" alt="Compress" width="300px">
 
 圧縮
-:::
+::: -->
 
 :::{figure} images/file/zip.png
 :label: zip
@@ -167,11 +167,11 @@
 作成されたZIPファイル
 :::
 
-:::{figure-md} zip
+<!-- :::{figure-md} zip
 <img src="./images/file/zip.png" alt="ZIP" width="100px">
 
 作成されたZIPファイル
-:::
+::: -->
 
 ### 解凍の手順
 
@@ -187,11 +187,11 @@
 展開
 :::
 
-:::{figure-md} decompress-1
+<!-- :::{figure-md} decompress-1
 <img src="./images/file/decompress-1.png" alt="Decompress1" width="300px">
 
 展開
-:::
+::: -->
 
 :::{figure} images/file/decompress-2.png
 :label: decompress-2
@@ -202,11 +202,11 @@
 展開先の選択
 :::
 
-:::{figure-md} decompress-2
+<!-- :::{figure-md} decompress-2
 <img src="./images/file/decompress-2.png" alt="Decompress2" width="300px">
 
 展開先の選択
-:::
+::: -->
 
 ## 練習
 

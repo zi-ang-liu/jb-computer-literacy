@@ -26,11 +26,11 @@ Excelでは、数値の計算を行うために、`=`で始まる数式を使用
 基本的な計算
 :::
 
-:::{figure-md} excel_calculation
+<!-- :::{figure-md} excel_calculation
 <img src="./images/calculate/excel_calculation.png" alt="計算" width="600px">
 
 基本的な計算
-:::
+::: -->
 
 ### 値の参照
 
@@ -48,11 +48,11 @@ Excelでは、他のセルの値を参照して計算を行うことができま
 値の参照
 :::
 
-:::{figure-md} excel_reference
+<!-- :::{figure-md} excel_reference
 <img src="./images/calculate/excel_reference.png" alt="値の参照" width="600px">
 
 値の参照
-:::
+::: -->
 
 以下では、例を使って、参照の書式を説明します。
 
@@ -78,11 +78,11 @@ Excelには、さまざまな関数が用意されています。関数を使用
 初めての関数
 :::
 
-:::{figure-md} excel_function
+<!-- :::{figure-md} excel_function
 <img src="./images/calculate/excel_function.png" alt="初めての関数" width="600px">
 
 初めての関数
-:::
+::: -->
 
 ### 小数点数
 
@@ -102,11 +102,11 @@ Excelには、さまざまな関数が用意されています。関数を使用
 小数点数
 :::
 
-:::{figure-md} excel_decimal
+<!-- :::{figure-md} excel_decimal
 <img src="./images/calculate/excel_decimal.png" alt="小数点数" width="600px">
 
 小数点数
-:::
+::: -->
 
 ### 連続データの計算
 
@@ -120,11 +120,11 @@ Excelには、さまざまな関数が用意されています。関数を使用
 連続データの計算
 :::
 
-:::{figure-md} excel_average
+<!-- :::{figure-md} excel_average
 <img src="./images/calculate/excel_average.png" alt="連続データの計算" width="600px">
 
 連続データの計算
-:::
+::: -->
 
 ## 参照
 
@@ -160,11 +160,11 @@ Excelでは、デフォルトで相対参照が使用されます。相対参照
 絶対参照の例
 :::
 
-:::{figure-md} absolute_reference
+<!-- :::{figure-md} absolute_reference
 <img src="./images/calculate/absolute_reference.png" alt="絶対参照" width="600px">
 
 絶対参照の例
-:::
+::: -->
 
 ### 混合参照
 
@@ -180,11 +180,11 @@ Excelでは、デフォルトで相対参照が使用されます。相対参照
 混合参照の例
 :::
 
-:::{figure-md} mixed_reference
+<!-- :::{figure-md} mixed_reference
 <img src="./images/calculate/mixed_reference.png" alt="混合参照" width="600px">
 
 混合参照の例
-:::
+::: -->
 
 ## 練習
 

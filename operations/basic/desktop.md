@@ -11,11 +11,11 @@
 デスクトップの基本画面
 :::
 
-:::{figure-md} desktop
+<!-- :::{figure-md} desktop
 <img src="./images/desktop/desktop.drawio.png" alt="デスクトップ" width="600px">
 
 デスクトップの基本画面
-:::
+::: -->
 
 Windowsのデスクトップには、以下の要素があります。
 
@@ -39,11 +39,11 @@ Windowsのデスクトップには、以下の要素があります。
 メモ帳のウィンドウ
 :::
 
-:::{figure-md} notepad
+<!-- :::{figure-md} notepad
 <img src="./images/desktop/notepad.drawio.png" alt="メモ帳" width="600px">
 
 メモ帳のウィンドウ
-:::
+::: -->
 
 - **タイトルバー**（title bar）: ウィンドウの最上部にあり、アプリ名を表示します。ウィンドウを移動し、最小化、最大化、閉じるなどの操作を行うことができます。
   - **最小化**（Minimize）: ウィンドウは消しますが、タスクバーのアイコンをクリックすると、ウィンドウが復元します。
@@ -65,11 +65,11 @@ Windowsのデスクトップには、以下の要素があります。
 電源の操作
 :::
 
-:::{figure-md} power
+<!-- :::{figure-md} power
 <img src="./images/desktop/power.png" alt="電源の操作" width="200px">
 
 電源の操作
-:::
+::: -->
 
 電源メニューには、以下の項目があります。
 
