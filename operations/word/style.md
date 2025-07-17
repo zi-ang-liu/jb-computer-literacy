@@ -66,6 +66,15 @@ Wordのスタイル
 
 下の図では、スタイルが適用された画面を示しています。見出し１と見出し２のスタイルを適用すると、文字も前に点が付きます。この点は、ワードで見出しが適用されていることを示しています。印刷時には、この点は表示されません。
 
+:::{figure} images/style/word_style_apply.png
+:label: word_style_apply
+:alt: スタイルの適用
+:width: 600px
+:align: center
+
+スタイルの適用
+:::
+
 :::{figure-md} word_style_apply
 <img src="./images/word_style_apply.png" alt="スタイルの適用" width="600px">
 
@@ -74,6 +83,15 @@ Wordのスタイル
 
 <kbb>Ctrl</kbb> + <kbb>F</kbb>を押すと、ナビゲーションペインが表示されます。ナビゲーションペインの「見出し」を選択すると、文書内の見出しの一覧が表示されます。また、「本論（１）」と「本論（２）」が「本論」に属して、階層構造になっていることがわかります。
 ここから、文書内の見出しをクリックすると、その見出しに移動することができます。
+
+:::{figure} images/style/word_navigation.png
+:label: word_navigation
+:alt: ナビゲーションペイン
+:width: 600px
+:align: center
+
+ナビゲーションペイン
+:::
 
 :::{figure-md} word_navigation
 <img src="./images/word_navigation.png" alt="ナビゲーションペイン" width="600px">
@@ -87,6 +105,15 @@ Wordのスタイル
 
 「見出し１」のスタイルを変更するには、スタイルの「見出し1」を右クリックして、「変更」を選択します。
 
+:::{figure} images/style/word_style_change.png
+:label: word_style_change
+:alt: 「見出し1」スタイルの変更
+:width: 600px
+:align: center
+
+「見出し1」スタイルの変更
+:::
+
 :::{figure-md} word_style_change
 <img src="./images/word_style_change.png" alt="「見出し1」スタイルの変更" width="600px">
 
@@ -95,6 +122,15 @@ Wordのスタイル
 
 「変更」を選択すると、「スタイルの変更」が表示されます。ここでは、フォントサイズを「14」に変更して、「**B**」を選択し、「OK」をクリックします。
 
+:::{figure} images/style/word_style_change3.png
+:label: word_style_change2
+:alt: 「スタイルの変更」ダイアログ
+:width: 600px
+:align: center
+
+「スタイルの変更」ダイアログ
+:::
+
 :::{figure-md} word_style_change3
 <img src="./images/word_style_change3.png" alt="「スタイルの変更」ダイアログ" width="600px">
 
@@ -102,6 +138,15 @@ Wordのスタイル
 :::
 
 「序論」、「本論」、「結論」のスタイルが自動的に変更されます。
+
+:::{figure} images/style/word_style_change4.png
+:label: word_style_change4
+:alt: スタイルを変更した結果
+:width: 600px
+:align: center
+
+スタイルを変更した結果
+:::
 
 :::{figure-md} word_style_change4
 <img src="./images/word_style_change4.png" alt="スタイルを変更した結果" width="600px">
@@ -126,6 +171,15 @@ Wordのスタイル
 
 「アウトラインの定義」をするには、「ホーム」タブの「段落」グループから、「アウトラインの定義」を選択します。
 
+:::{figure} images/style/word_outline.png
+:label: word_outline
+:alt: 「アウトラインの定義」の選択
+:width: 600px
+:align: center
+
+「アウトラインの定義」の選択
+:::
+
 :::{figure-md} word_outline
 <img src="./images/word_outline.png" alt="「アウトラインの定義」の選択" width="600px">
 
@@ -133,6 +187,15 @@ Wordのスタイル
 :::
 
 「新しいアウトラインの定義」が表示されます。ここで、「オプション」を選択すると、詳細な設定ができます。
+
+:::{figure} images/style/word_outline2.png
+:label: new_outline
+:alt: 「新しいアウトラインの定義」ダイアログ
+:width: 600px
+:align: center
+
+「新しいアウトラインの定義」ダイアログ
+:::
 
 :::{figure-md} new_outline
 <img src="./images/word_outline2.png" alt="「新しいアウトラインの定義」ダイアログ" width="600px">
@@ -142,6 +205,15 @@ Wordのスタイル
 
 ここでは、「変更するレベルをクリックしてください：」から、「1」を選択します。そして、「レベルと対応つける見出しスタイル」を「見出し1」に設定します。デフォルトでは、「書式番号」が「1」に設定されていますが、ここでは、「第1章」に変更します。「1」の背景が灰色になっていますが、これは「第1章」、「第2章」、「第3章」という形式で番号が付けられることを示しています。設定し終わりましたら、「OK」をクリックして、文書に戻ります。
 
+:::{figure} images/style/word_outline3.png
+:label: word_outline3
+:alt: 番号書式の設定
+:width: 600px
+:align: center
+
+番号書式の設定
+:::
+
 :::{figure-md} word_outline3
 <img src="./images/word_outline3.png" alt="番号書式の設定" width="600px">
 
@@ -149,6 +221,15 @@ Wordのスタイル
 :::
 
 「序論」、「本論」、「結論」に「第１章」、「第２章」、「第３章」の番号が自動的に付けられます。
+
+:::{figure} images/style/word_outline4.png
+:label: word_outline4
+:alt: 「見出し1」スタイルが適用された見出しに番号が付けられる
+:width: 600px
+:align: center  
+
+「見出し1」スタイルが適用された見出しに番号が付けられる
+:::
 
 :::{figure-md} word_outline4
 <img src="./images/word_outline4.png" alt="「見出し1」スタイルが適用された見出しに番号が付けられる" width="600px">
@@ -158,6 +239,15 @@ Wordのスタイル
 
 レベル「2」には、「レベルと対応つける見出しスタイル」を「見出し2」に設定します。デフォルトでは、「書式番号」が「1.1」に設定されています。
 
+:::{figure} images/style/word_outline5.png
+:label: word_outline5
+:alt: 見出し2の設定
+:width: 600px
+:align: center
+
+見出し2の番号書式の設定
+:::
+
 :::{figure-md} word_outline5
 <img src="./images/word_outline5.png" alt="見出し2の設定" width="600px">
 
@@ -165,6 +255,15 @@ Wordのスタイル
 :::
 
 「本論（１）」、「本論（２）」が「第２章」に属していることで、「2.1」、「2.2」の番号が付けられます。
+
+:::{figure} images/style/word_outline6.png
+:label: word_outline6
+:alt: 「見出し2」スタイルが適用された見出しに番号が付けられる
+:width: 600px
+:align: center  
+
+「見出し2」スタイルが適用された見出しに番号が付けられる
+:::
 
 :::{figure-md} word_outline6
 <img src="./images/word_outline6.png" alt="「見出し2」スタイルが適用された見出しに番号が付けられる" width="600px">

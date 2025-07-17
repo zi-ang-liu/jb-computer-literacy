@@ -39,6 +39,7 @@ project:
         - file: operations/basic/screenshot.md
         - file: operations/basic/cui.md
         - file: operations/basic/practice.md
+    
     - title: 文字入力
       children:
         - file: operations/input/intro.md
@@ -60,6 +61,14 @@ project:
         - file: operations/word/style.md
         - file: operations/word/edit.md
         - file: operations/word/practice.md
+
+    - title: Excelによるデータ処理
+      children:
+        - file: operations/excel/new.md
+        - file: operations/excel/calculate.md
+        - file: operations/excel/function.md
+        - file: operations/excel/graph.md
+        - file: operations/excel/practice.md
 
     - title: Markdown
       children:
