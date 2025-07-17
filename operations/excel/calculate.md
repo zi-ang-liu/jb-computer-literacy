@@ -18,6 +18,14 @@ Excelでは、数値の計算を行うために、`=`で始まる数式を使用
 = 87 + 92 + 85
 ```
 
+:::{figure} images/calculate/excel_calculation.png
+:alt: 計算
+:width: 600px
+:align: center
+
+基本的な計算
+:::
+
 :::{figure-md} excel_calculation
 <img src="./images/calculate/excel_calculation.png" alt="計算" width="600px">
 
@@ -31,6 +39,14 @@ Excelでは、他のセルの値を参照して計算を行うことができま
 ```excel
 = B3 + C3 + D3
 ```
+
+:::{figure} images/calculate/excel_reference.png
+:alt: 値の参照
+:width: 600px
+:align: center
+
+値の参照
+:::
 
 :::{figure-md} excel_reference
 <img src="./images/calculate/excel_reference.png" alt="値の参照" width="600px">
@@ -54,6 +70,14 @@ Excelには、さまざまな関数が用意されています。関数を使用
 = SUM(B4:D4)
 ```
 
+:::{figure} images/calculate/excel_function.png
+:alt: 初めての関数
+:width: 600px
+:align: center
+
+初めての関数
+:::
+
 :::{figure-md} excel_function
 <img src="./images/calculate/excel_function.png" alt="初めての関数" width="600px">
 
@@ -70,6 +94,14 @@ Excelには、さまざまな関数が用意されています。関数を使用
 
 平均値は整数部分で表示されます。小数点以下の値を表示するには、「数値」グループの「小数点以下の表示桁数を増やす」ボタンをクリックします。
 
+:::{figure} images/calculate/excel_decimal.png
+:alt: 小数点数
+:width: 600px
+:align: center
+
+小数点数
+:::
+
 :::{figure-md} excel_decimal
 <img src="./images/calculate/excel_decimal.png" alt="小数点数" width="600px">
 
@@ -79,6 +111,14 @@ Excelには、さまざまな関数が用意されています。関数を使用
 ### 連続データの計算
 
 そして、マウスでセルの右下隅をドラッグすると、他の行にも同じ計算を適用できます。
+
+:::{figure} images/calculate/excel_average.png
+:alt: 連続データの計算
+:width: 600px
+:align: center
+
+連続データの計算
+:::
 
 :::{figure-md} excel_average
 <img src="./images/calculate/excel_average.png" alt="連続データの計算" width="600px">
@@ -112,6 +152,14 @@ Excelでは、デフォルトで相対参照が使用されます。相対参照
 
 この数式を`C3`にコピーすると、`C3`には`= B3 * $E$1`という数式が自動的に適用されます。
 
+:::{figure} images/calculate/absolute_reference.png
+:alt: 絶対参照
+:width: 600px
+:align: center
+
+絶対参照の例
+:::
+
 :::{figure-md} absolute_reference
 <img src="./images/calculate/absolute_reference.png" alt="絶対参照" width="600px">
 
@@ -123,6 +171,14 @@ Excelでは、デフォルトで相対参照が使用されます。相対参照
 混合参照は、行番号または列番号のいずれか一方だけを固定することができる参照方法です。例えば、`$A1`は、列Aを絶対参照し、行番号は相対参照します。逆に、`A$1`は、行1を絶対参照し、列番号は相対参照します。
 
 例えば、以下の例では、掛け算の九九を計算するために、`$A2`と`B$1`を混合参照します。`$A2`は、列Aを絶対参照し、行番号は相対参照します。逆に、`B$1`は、行1を絶対参照し、列番号は相対参照します。
+
+:::{figure} images/calculate/mixed_reference.png
+:alt: 混合参照
+:width: 600px
+:align: center
+
+混合参照の例
+:::
 
 :::{figure-md} mixed_reference
 <img src="./images/calculate/mixed_reference.png" alt="混合参照" width="600px">

@@ -70,6 +70,24 @@ project:
         - file: operations/excel/graph.md
         - file: operations/excel/practice.md
 
+
+    - title: HTMLによるWebページの作成
+      children:
+        - file: operations/html/element.md
+        - file: operations/html/attribute.md
+        - file: operations/html/path.md
+        - file: operations/html/advanced.md
+        - file: operations/html/practice.md
+
+    - title: CSSによるWebデザイン
+      children:
+        - file: operations/css/basic.md
+        - file: operations/css/selector.md
+        - file: operations/css/pseudo_class.md
+        - file: operations/css/color.md
+        - file: operations/css/box.md
+        - file: operations/css/practice.md
+
     - title: Markdown
       children:
         - file: operations/markdown/intro.md
@@ -104,6 +122,12 @@ project:
         - file: theory/algorithm/problem-solving.md
         - file: theory/algorithm/searching.md
         - file: theory/algorithm/sorting.md
+
+    - title: Appendix
+      children:
+        - file: appendix/input-ja.md
+        - file: appendix/powershell.md
+        - file: appendix/vscode.md
 
     - url: 'https://colab.research.google.com'
       title: Google Colab 🧑‍💻

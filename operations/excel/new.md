@@ -2,6 +2,14 @@
 
 Excelを起動すると、次のような画面が表示されます。「空白のブック」を選択すると、新しいExcelファイルが作成されます。
 
+:::{figure} images/new/excel_start.png
+:alt: Excelの起動画面
+:width: 600px
+:align: center
+
+Excelの起動画面
+:::
+
 :::{figure-md} excel_start
 <img src="./images/new/excel_start.png" alt="Excelの起動画面" width="600px">
 
@@ -13,6 +21,14 @@ Excelの起動画面
 <!-- https://infinity-i.co.jp/support/2438/#no30 -->
 
 空白のブックを選択すると、以下のような画面が表示されます。
+
+:::{figure} images/new/excel_blank.drawio.png
+:alt: 空白のブック
+:width: 600px
+:align: center
+
+Excelの基本画面
+:::
 
 :::{figure-md} excel_blank
 <img src="./images/new/excel_blank.drawio.png" alt="空白のブック" width="600px">
@@ -56,6 +72,14 @@ Excelの**ブック**は一つのファイルを指します。ブックの中�
 
 「ホーム」タブの「フォント」グループの機能を使って、表の見た目を整えます。
 
+:::{figure} images/new/input.drawio.png
+:alt: データの入力
+:width: 600px
+:align: center
+
+データの入力
+:::
+
 :::{figure-md} excel_input
 <img src="./images/new/input.drawio.png" alt="データの入力" width="600px">
 
@@ -63,6 +87,14 @@ Excelの**ブック**は一つのファイルを指します。ブックの中�
 :::
 
 ここでは、太字と罫線を使います。太字は、フォントの「B」アイコンをクリックするか、<kbd>Ctrl</kbd> + <kbd>B</kbd>キーを押すことで設定できます。罫線は、フォントの「罫線」アイコンをクリックして、罫線の種類を選択します。
+
+:::{figure} images/new/excel_font.png
+:alt: フォントの設定
+:width: 600px
+:align: center
+
+フォントの設定
+:::
 
 :::{figure-md} excel_font
 <img src="./images/new/excel_font.png" alt="フォントの設定" width="600px">
@@ -74,6 +106,14 @@ Excelの**ブック**は一つのファイルを指します。ブックの中�
 
 Excelでは、「数値」、「通貨」、「パーセンテージ」などの書式を設定できます。数値の書式を変更するには、セルを選択して、「ホーム」タブの「数値」グループから書式を選択します。
 
+:::{figure} images/new/excel_format.png
+:alt: 数値の書式
+:width: 600px
+:align: center
+
+数値の書式
+:::
+
 :::{figure-md} excel_format
 <img src="./images/new/excel_format.png" alt="数値の書式" width="600px">
 
@@ -81,6 +121,14 @@ Excelでは、「数値」、「通貨」、「パーセンテージ」などの
 :::
 
 ここでは成績の部分を選択し、「数値」を選択します。
+
+:::{figure} images/new/excel_format_number.png
+:alt: 数値の書式
+:width: 600px
+:align: center
+
+数値の書式
+:::
 
 :::{figure-md} excel_format_number
 <img src="./images/new/excel_format_number.png" alt="数値の書式" width="600px">
@@ -92,6 +140,14 @@ Excelでは、「数値」、「通貨」、「パーセンテージ」などの
 
 :::{note}
 学籍番号は一般的に数値ではなく文字列として扱われます。学籍番号は識別するためのもので、計算を行う必要はありません。また、「0001」という学籍番号は、数値として扱うと「1」となってしまいます。
+:::
+
+:::{figure} images/new/excel_format_string.png
+:alt: 文字列の書式
+:width: 600px
+:align: center
+
+文字列の書式
 :::
 
 :::{figure-md} excel_format_string

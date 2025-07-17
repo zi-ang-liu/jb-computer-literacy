@@ -16,14 +16,29 @@
 
 マウスで入力したデータを選択し、「挿入」タブの「グラフ」グループから「おすすめグラフ」を選択します。
 
+:::{figure} images/graph/recommend_graph.png
+:alt: recommend_graph
+:width: 600px
+:align: center
+
+「おすすめグラフ」ボタン
+:::
+
 :::{figure-md} recommend_graph
 <img src="./images/graph/recommend_graph.png" alt="「おすすめグラフ」ボタン" width="600px">
 
 「おすすめグラフ」ボタン
 :::
 
-
 すると、「グラフの挿入」ダイアログが表示されます。ここで、Excelがデータに基づいておすすめするグラフの種類が表示されます。**折れ線**グラフを選択し、「OK」ボタンをクリックします。
+
+:::{figure} images/graph/insert_graph.png
+:alt: insert_graph
+:width: 600px
+:align: center
+
+「グラフの挿入」ダイアログ
+:::
 
 :::{figure-md} insert_graph
 <img src="./images/graph/insert_graph.png" alt="「グラフの挿入」ダイアログ" width="600px">
@@ -39,6 +54,14 @@ Excelの「グラフの挿入」ダイアログでは、グラフについての
 
 下記のようなグラフが作成されます。
 
+:::{figure} images/graph/graph.png
+:alt: graph
+:width: 600px
+:align: center
+
+グラフ
+:::
+
 :::{figure-md} graph
 <img src="./images/graph/graph.png" alt="グラフ" width="600px">
 
@@ -49,10 +72,26 @@ Excelの「グラフの挿入」ダイアログでは、グラフについての
 
 作成したグラフをマウスで選択すると、リボンに「グラフのデザイン」タブと「書式」タブが表示され、グラフの編集が可能になります。
 
+:::{figure} images/graph/graph_design.png
+:alt: graph_design
+:width: 600px
+:align: center
+
+「グラフのデザイン」タブ
+:::
+
 :::{figure-md} graph_design
 <img src="./images/graph/graph_design.png" alt="グラフのデザインタブ" width="600px">
 
 「グラフのデザイン」タブ
+:::
+
+:::{figure} images/graph/graph_format.png
+:alt: graph_format
+:width: 600px
+:align: center
+
+「書式」タブ
 :::
 
 :::{figure-md} graph_format
@@ -66,6 +105,14 @@ Excelの「グラフの挿入」ダイアログでは、グラフについての
 作成したグラフは、画像ファイルとして保存できます。
 
 右クリックして「図として保存」を選択すると、「図として保存」ダイアログが表示されます。
+
+:::{figure} images/graph/save_graph.png
+:alt: save_graph
+:width: 600px
+:align: center
+
+「図として保存」ダイアログ
+:::
 
 :::{figure-md} save_graph
 <img src="./images/graph/save_graph.png" alt="図として保存ダイアログ" width="600px">
@@ -90,6 +137,14 @@ Excelの「グラフの挿入」ダイアログでは、グラフについての
 ベクター画像は、拡大しても劣化しないため、理科系のレポートや論文などで優先的に使用されます。
 
 ここでは、**SVG**形式を選択して保存します。
+
+:::{figure} images/graph/save_graph_svg.png
+:alt: save_graph_svg
+:width: 600px
+:align: center
+
+「SVG形式で保存」ダイアログ
+:::
 
 :::{figure-md} save_graph_svg
 <img src="./images/graph/save_graph_svg.png" alt="SVG形式で保存" width="600px">

@@ -7,6 +7,12 @@
 - **ボーダー（border）**: パディングとマージンの間にある線。
 - **マージン（margin）**: ボックスの外側のスペース。
 
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png
+:width: 500px
+:alt: CSS Box Model
+:class: no-caption
+:::
+
 :::{figure-md} CSS Box Model
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png" alt="CSS Box Model" width="500px">
 
