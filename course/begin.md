@@ -50,5 +50,3 @@
 > 授業中に私語をするのは、ボアソナード博士の戒めた、他人の学ぶ権利を侵害することになります。
 
 -- 法政大学 [学習支援ハンドブック2025](https://hosei-hondana.actibookone.com/content/detail?param=eyJjb250ZW50TnVtIjo5NzcwNywiY2F0ZWdvcnlOdW0iOjY4MTV9&pNo=1)
-
-## 
